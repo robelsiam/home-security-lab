@@ -44,8 +44,6 @@ bantime = 5m
 
 Any IP that fails to authenticate 3 times within 1 minute is automatically banned at the firewall level for 5 minutes.
 
-**chrony**
-NTP time synchronization to keep server logs accurate and timestamps reliable.
 
 ## Attack and defense simulation
 
@@ -101,7 +99,6 @@ sudo tail -f /var/log/auth.log
 | nginx | Web server |
 | UFW | Firewall management |
 | fail2ban | Intrusion detection and automated banning |
-| chrony | NTP time synchronization |
 | nmap | Network and port scanning |
 | OpenSSH | Remote server administration |
 
