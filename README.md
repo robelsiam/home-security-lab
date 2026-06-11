@@ -13,17 +13,7 @@ Both VMs are networked on a private host-only network (`192.168.56.0/24`) so the
 
 ## Architecture
 
-```
-Mac (host) — 192.168.56.1
-      |
-      | Host-only network (192.168.56.0/24)
-      |
-      |--- dc-lab-01 (Ubuntu Server) — 192.168.56.2
-      |         nginx · UFW · fail2ban · chrony
-      |
-      |--- Kali Linux — 192.168.56.3
-                nmap · ssh
-```
+[README.md](https://github.com/user-attachments/files/28833306/README.md)
 
 Each VM also has a NAT adapter (`10.0.2.15`) for internet access, used during package installation.
 
