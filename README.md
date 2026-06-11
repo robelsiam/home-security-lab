@@ -13,7 +13,8 @@ Both VMs are networked on a private host-only network (`192.168.56.0/24`) so the
 
 ## Architecture
 
-[README.md](https://github.com/user-attachments/files/28833306/README.md)
+<img width="1430" height="1040" alt="image" src="https://github.com/user-attachments/assets/66b57168-814b-405c-8c63-6e5787ca5e6f" />
+
 
 Each VM also has a NAT adapter (`10.0.2.15`) for internet access, used during package installation.
 
