@@ -86,7 +86,7 @@ sudo tail -f /var/log/auth.log
 - Default-deny firewall policy and explicit port allowlisting
 - The difference between filtered and closed ports
 - Automated intrusion detection and IP banning
-- Live log monitoring and log analysis with `grep` and `tail -f`
+- Live log monitoring and log analysis with `tail -f`
 - Attack/defense simulation in an isolated lab environment
 
 ## Tools used
@@ -101,4 +101,8 @@ sudo tail -f /var/log/auth.log
 | fail2ban | Intrusion detection and automated banning |
 | nmap | Network and port scanning |
 | OpenSSH | Remote server administration |
+
+## Video demo
+
+https://www.youtube.com/watch?v=VCOONdycdWc
 
